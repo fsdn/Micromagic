@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+@{ string PName = "慢生活", PKeys = "近景魔术", PNotes = "近景魔术"; }
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="shortcut icon" href="~/Content/Images/Common/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="~/Content/Images/Common/favicon.ico">
+    <meta name="keywords" content="@PKeys" />
+    <meta name="description" content="@PNotes" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/H5/Styles/Views")
+    @RenderSection("styles", required: false)
+</head>
+<body>
+    <header class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("慢时间", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("主页", "Index", "Home", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("API", "Index", "Help", new { area = "" }, null)</li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="container body-content">
+        @RenderBody()
+
+    </div>
+    <footer>
+        <p>&copy; @DateTime.Now.Year - 慢时间</p>
+    </footer>
+    <div>
+        @Scripts.Render("~/H5/Scripts/Views")
+        @RenderSection("scripts", required: false)
+    </div>
+</body>
+</html>
