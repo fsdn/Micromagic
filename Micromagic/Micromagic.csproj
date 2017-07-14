@@ -235,7 +235,9 @@
     <Content Include="Content\Common\css\DataPool.css" />
     <Content Include="Content\Common\js\LayoutPC.js" />
     <Content Include="Content\PC\Home\css\Home.css" />
+    <Content Include="Content\PC\Home\css\Index.css" />
     <Content Include="Content\PC\Home\js\Home.js" />
+    <Content Include="Content\PC\Home\js\Index.js" />
     <Content Include="Content\Thirds\angular-1.6.5\js\angular.js" />
     <Content Include="Content\Thirds\angular-1.6.5\js\angular.min.js" />
     <Content Include="Content\Thirds\animate-4.0.0\css\animate.css" />
@@ -251,6 +253,8 @@
     <Content Include="Content\Thirds\bootstrap-4.0.0\css\bootstrap.min.css" />
     <Content Include="Content\Thirds\bootstrap-4.0.0\js\bootstrap.js" />
     <Content Include="Content\Thirds\bootstrap-4.0.0\js\bootstrap.min.js" />
+    <Content Include="Content\Thirds\devicejs-0.2.7\js\device.js" />
+    <Content Include="Content\Thirds\devicejs-0.2.7\js\device.min.js" />
     <Content Include="Content\Thirds\highlightjs-9.12.0\css\agate.css" />
     <Content Include="Content\Thirds\highlightjs-9.12.0\css\androidstudio.css" />
     <Content Include="Content\Thirds\highlightjs-9.12.0\css\arduino-light.css" />
@@ -439,10 +443,10 @@
     <Content Include="Views\Shared\_LayoutH5.cshtml" />
     <Content Include="Views\Shared\_LayoutPC.cshtml" />
     <Content Include="Views\Weather\Index.cshtml" />
+    <None Include="Properties\PublishProfiles\MicroMagic.pubxml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Content\Fonts\" />
     <Folder Include="Content\H5\Magic\" />
     <Folder Include="Content\H5\Micro\" />
     <Folder Include="Content\H5\Weather\" />
@@ -469,6 +473,16 @@
     <Content Include="Content\Thirds\bootstrap-3.3.7\fonts\glyphicons-halflings-regular.woff2" />
     <None Include="Project_Readme.html" />
     <Content Include="Content\Scripts\jquery-1.10.2.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MicroService\MicroService.csproj">
+      <Project>{cd0d1e46-9f54-4e79-9833-1fdea4d6b368}</Project>
+      <Name>MicroService</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MicroUtils\MicroUtils.csproj">
+      <Project>{1afdd8d6-17e5-4cf2-bec5-081a8e9797b9}</Project>
+      <Name>MicroUtils</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -10,13 +10,13 @@ namespace Micromagic
         {
             // 使用要用于开发和学习的 Modernizr 的开发版本。然后，当你做好
             // 生产准备时，请使用 http://modernizr.com 上的生成工具来仅选择所需的测试。
+            //BundleTable.EnableOptimizations = true;
 
             #region Common
 
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Content/Scripts/jquery-{version}.js"));
-
-
+            
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                         "~/Content/Scripts/modernizr-*"));
 
@@ -43,6 +43,7 @@ namespace Micromagic
             bundles.Add(new ScriptBundle("~/H5/Scripts/Views").Include(
                 "~/Content/Thirds/jquery-3.2.0/js/jquery.js",
                 "~/Content/Thirds/angular-1.6.5/js/angular.js",
+                "~/Content/Thirds/devicejs-0.2.7/js/device.js",
                 "~/Content/Thirds/weui-1.1.1/js/jweixin.js",
                 "~/Content/Thirds/weui-1.1.1/js/weui.js",
                 "~/Content/Thirds/urljs-2.4.0/js/url.js",
@@ -81,8 +82,8 @@ namespace Micromagic
                 "~/Content/Scripts/modernizr-*",
                 "~/Content/Thirds/jquery-3.2.0/js/jquery.js",
                 "~/Content/Thirds/angular-1.6.5/js/angular.js",
-                "~/Content/Thirds/tether-1.3.3/js/tether.js",
                 "~/Content/Thirds/bootstrap-3.3.7/js/bootstrap.js",
+                "~/Content/Thirds/devicejs-0.2.7/js/device.js",
                 "~/Content/Thirds/urljs-2.4.0/js/url.js",
                 "~/Content/Common/js/DataPool.js",
                 "~/Content/Common/js/Common.js",
@@ -93,9 +94,14 @@ namespace Micromagic
             #region Home
 
             bundles.Add(new StyleBundle("~/PC/Styles/Home").Include(
-             "~/Content/PC/Home/js/Home.css"));
+             "~/Content/PC/Home/css/Home.css"));
             bundles.Add(new ScriptBundle("~/PC/Scripts/Home").Include(
                "~/Content/PC/Home/js/Home.js"));
+
+            bundles.Add(new StyleBundle("~/PC/Styles/Home/Index").Include(
+             "~/Content/PC/Home/css/Index.css"));
+            bundles.Add(new ScriptBundle("~/PC/Scripts/Home/Index").Include(
+               "~/Content/PC/Home/js/Index.js"));
 
             #endregion
 

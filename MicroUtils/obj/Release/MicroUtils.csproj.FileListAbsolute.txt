@@ -1,0 +1,7 @@
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Release\MicroUtils.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Release\MicroUtils.pdb
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Release\log4net.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Release\Newtonsoft.Json.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\obj\Release\MicroUtils.csprojResolveAssemblyReference.cache
+D:\FPJ\Githubs\Micromagic\MicroUtils\obj\Release\MicroUtils.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\obj\Release\MicroUtils.pdb

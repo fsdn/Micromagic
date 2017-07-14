@@ -75,3 +75,8 @@ D:\FPJ\Githubs\Micromagic\Micromagic\bin\Microsoft.Owin.Security.MicrosoftAccoun
 D:\FPJ\Githubs\Micromagic\Micromagic\bin\System.Web.Http.Owin.xml
 D:\FPJ\Githubs\Micromagic\Micromagic\obj\Debug\Micromagic.dll
 D:\FPJ\Githubs\Micromagic\Micromagic\obj\Debug\Micromagic.pdb
+D:\FPJ\Githubs\Micromagic\Micromagic\bin\MicroService.dll
+D:\FPJ\Githubs\Micromagic\Micromagic\bin\MicroUtils.dll
+D:\FPJ\Githubs\Micromagic\Micromagic\bin\log4net.dll
+D:\FPJ\Githubs\Micromagic\Micromagic\bin\MicroService.pdb
+D:\FPJ\Githubs\Micromagic\Micromagic\bin\MicroUtils.pdb

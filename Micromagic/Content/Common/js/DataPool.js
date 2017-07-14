@@ -31,6 +31,10 @@ datas.cc.acter = {};
 datas.cc.acter.qq = '1296696830';
 datas.cc.acter.email = '1296696830@qq.com';
 
+/** 公共数据页面默认 */
+datas.cc.defaut = {};
+datas.cc.defaut.index = { pc: '/Home/Index', h5: '/Micro/Index' };
+
 /** 公共数据字符串 */
 datas.cc.str = {};
 datas.cc.str.brand = '慢时间';

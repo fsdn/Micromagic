@@ -1,0 +1,6 @@
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Debug\MicroUtils.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Debug\MicroUtils.pdb
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Debug\log4net.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\bin\Debug\Newtonsoft.Json.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\obj\Debug\MicroUtils.dll
+D:\FPJ\Githubs\Micromagic\MicroUtils\obj\Debug\MicroUtils.pdb

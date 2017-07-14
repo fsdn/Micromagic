@@ -1,4 +1,37 @@
 ﻿
+// #region name
+
+$().ready(function () {
+    funDataInit(); // 初始化数据
+    funEventInit(); // 初始化事件
+});
+
+/** 初始化数据 */
+function funDataInit() {
+}
+/** 初始化事件 */
+function funEventInit() {
+}
+
+// #endregion
+
+// #region device
+
+/** 判断设备类型 pc/mobile */
+if (device.mobile()) {
+    var str = location.href.toLowerCase();
+    if (str.indexOf('home') >= 0) {
+        location.href = datas.cc.defaut.index.h5;
+    }
+}
+else {
+    var str = location.href.toLowerCase();
+    if (str.indexOf('home') < 0) {
+        location.href = datas.cc.defaut.index.pc;
+    }
+}
+
+// #endregion
 
 // #region angular
 
@@ -40,7 +73,5 @@ function funLog() {
     ////    }
     ////}
 }
-
-
 
 // #endregion
