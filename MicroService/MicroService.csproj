@@ -48,6 +48,7 @@
     <Compile Include="Common\EnumModel.cs" />
     <Compile Include="Common\ParamPublic.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Weather\WeatherBLL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\MicroUtils\MicroUtils.csproj">

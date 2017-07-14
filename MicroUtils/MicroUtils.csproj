@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccuWeather.cs" />
     <Compile Include="ConvertHepler.cs" />
     <Compile Include="DateHelper.cs" />
     <Compile Include="ImageHelper.cs" />

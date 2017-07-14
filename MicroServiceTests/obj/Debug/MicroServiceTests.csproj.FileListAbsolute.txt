@@ -1,0 +1,11 @@
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\MicroServiceTests.dll
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\MicroServiceTests.pdb
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\MicroService.dll
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\MicroUtils.dll
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\Newtonsoft.Json.dll
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\log4net.dll
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\MicroService.pdb
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\bin\Debug\MicroUtils.pdb
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\obj\Debug\MicroServiceTests.csprojResolveAssemblyReference.cache
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\obj\Debug\MicroServiceTests.dll
+D:\FPJ\Githubs\Micromagic\MicroServiceTests\obj\Debug\MicroServiceTests.pdb
