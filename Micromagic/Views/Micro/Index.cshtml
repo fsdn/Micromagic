@@ -1,0 +1,304 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutH5.cshtml";
+}
+@section styles{
+    @Styles.Render("~/H5/Styles/Micro")
+}
+@section scripts{
+    @Scripts.Render("~/H5/Scripts/Micro")
+}
+<div class="container ui-ctrl-index" ng-controller="IndexController">
+    <div class="page">
+        <div class="ui-col-row ui-as-row">
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.time.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.time.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.time.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.time.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.time.tag" ng-class="{hidden:data.time.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.weather.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.weather.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.weather.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.weather.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.weather.tag" ng-class="{hidden:data.weather.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-3 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.phone.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.phone.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.phone.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.phone.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.phone.tag" ng-class="{hidden:data.phone.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-3 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.message.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.message.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.message.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.message.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.message.tag" ng-class="{hidden:data.message.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.calendar.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.calendar.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.calendar.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.calendar.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.calendar.tag" ng-class="{hidden:data.calendar.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.email.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.email.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.email.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.email.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.email.tag" ng-class="{hidden:data.email.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-3 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.music.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.music.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.music.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.music.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.music.tag" ng-class="{hidden:data.music.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-3 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.video.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.video.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.video.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.video.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.video.tag" ng-class="{hidden:data.video.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-3 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.edge.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.edge.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.edge.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.edge.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.edge.tag" ng-class="{hidden:data.edge.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.camera.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.camera.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.camera.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.camera.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.camera.tag" ng-class="{hidden:data.camera.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-3 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.photo.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.photo.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.photo.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.photo.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.photo.tag" ng-class="{hidden:data.photo.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.pay.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.pay.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.pay.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.pay.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.pay.tag" ng-class="{hidden:data.pay.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.mall.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.mall.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.mall.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.mall.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.mall.tag" ng-class="{hidden:data.mall.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.magazine.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.magazine.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.magazine.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.magazine.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.magazine.tag" ng-class="{hidden:data.magazine.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.game.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.game.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.game.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.game.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.game.tag" ng-class="{hidden:data.game.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.store.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.store.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.store.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.store.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.store.tag" ng-class="{hidden:data.store.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-12 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.notice.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.notice.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.notice.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.notice.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.notice.tag" ng-class="{hidden:data.notice.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-pad-none">
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.chattim.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.chattim.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.chattim.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.chattim.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.chattim.tag" ng-class="{hidden:data.chattim.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.blogtim.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.blogtim.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.blogtim.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.blogtim.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.blogtim.tag" ng-class="{hidden:data.blogtim.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.chathit.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.chathit.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.chathit.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.chathit.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.chathit.tag" ng-class="{hidden:data.chathit.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.bloghit.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.bloghit.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.bloghit.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.bloghit.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.bloghit.tag" ng-class="{hidden:data.bloghit.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.internet.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.internet.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.internet.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.internet.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.internet.tag" ng-class="{hidden:data.internet.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-12 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.news.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.news.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.news.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.news.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.news.tag" ng-class="{hidden:data.news.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-as-1by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.office.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.office.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.office.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.office.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.office.tag" ng-class="{hidden:data.office.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+            <div class="ui-col-xs-6 ui-pad-none">
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.word.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.word.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.word.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.word.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.word.tag" ng-class="{hidden:data.word.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.excel.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.excel.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.excel.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.excel.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.excel.tag" ng-class="{hidden:data.excel.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell">
+                        <a class="ui-node" ng-href="{{data.ppt.url}}">
+                            <div class="ui-node-icon ui-icons" ng-bind="data.ppt.icon"></div>
+                            <div class="ui-node-text" ng-bind="data.ppt.text"></div>
+                            <div class="ui-node-sub" ng-bind="data.ppt.sub"></div>
+                            <div class="ui-node-tag" ng-bind="data.ppt.tag" ng-class="{hidden:data.ppt.tag==0}"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ui-col-xs-6 ui-as-1by1">
+                    <div class="ui-as-cell"></div>
+                </div>
+            </div>
+            <div class="ui-col-xs-12 ui-as-2by1">
+                <div class="ui-as-cell">
+                    <a class="ui-node" ng-href="{{data.memo.url}}">
+                        <div class="ui-node-icon ui-icons" ng-bind="data.memo.icon"></div>
+                        <div class="ui-node-text" ng-bind="data.memo.text"></div>
+                        <div class="ui-node-sub" ng-bind="data.memo.sub"></div>
+                        <div class="ui-node-tag" ng-bind="data.memo.tag" ng-class="{hidden:data.memo.tag==0}"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

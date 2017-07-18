@@ -2149,6 +2149,105 @@ namespace MicroUtils
     }
     public class LocationsCitiesCountryCodeSearchDataModel
     {
+        public int Version { get; set; }
+        public string Key { get; set; }
+        public string Type { get; set; }
+        public int Rank { get; set; }
+        public string LocalizedName { get; set; }
+        public string EnglishName { get; set; }
+        public string PrimaryPostalCode { get; set; }
+        public RegionModel Region { get; set; }
+        public class RegionModel
+        {
+            public string ID { get; set; }
+            public string LocalizedName { get; set; }
+            public string EnglishName { get; set; }
+        }
+        public CountryModel Country { get; set; }
+        public class CountryModel
+        {
+            public string ID { get; set; }
+            public string LocalizedName { get; set; }
+            public string EnglishName { get; set; }
+        }
+        public AdministrativeAreaModel AdministrativeArea { get; set; }
+        public class AdministrativeAreaModel
+        {
+            public string ID { get; set; }
+            public string LocalizedName { get; set; }
+            public string EnglishName { get; set; }
+            public int Level { get; set; }
+            public string LocalizedType { get; set; }
+            public string EnglishType { get; set; }
+            public string CountryID { get; set; }
+        }
+        public TimeZoneModel TimeZone { get; set; }
+        public class TimeZoneModel
+        {
+            public string Code { get; set; }
+            public string Name{ get; set; }
+            public int GmtOffset { get; set; }
+            public bool IsDaylightSaving { get; set; }
+            public string NextOffsetChange { get; set; }
+        }
+        public GeoPositionModel GeoPosition { get; set; }
+        public class GeoPositionModel
+        {
+            public double Latitude { get; set; }
+            public double Longitude { get; set; }
+            public ElevationModel Elevation { get; set; }
+            public class ElevationModel
+            {
+                public MetricModel Metric { get; set; }
+                public class MetricModel
+                {
+                    public int Value { get; set; }
+                    public string Unit { get; set; }
+                    public int UnitType { get; set; }
+                }
+                public ImperialModel Imperial { get; set; }
+                public class ImperialModel
+                {
+                    public int Value { get; set; }
+                    public string Unit { get; set; }
+                    public int UnitType { get; set; }
+                }
+            }
+        }
+        public bool IsAlias { get; set; }
+        public Array SupplementalAdminAreas { get; set; }
+        public Array DataSets { get; set; }
+        public DetailsModel Details { get; set; }
+        public class DetailsModel {
+            public string Key { get; set; }
+            public string StationCode { get; set; }
+            public string StationGmtOffset { get; set; }
+            public string BandMap { get; set; }
+            public string Climo { get; set; }
+            public string LocalRadar { get; set; }
+            public string MediaRegion { get; set; }
+            public string Metar { get; set; }
+            public string NXMetro { get;set; }
+            public string NXState { get; set; }
+            public string Population { get; set; }
+            public string PrimaryWarningCountyCode { get; set; }
+            public string PrimaryWarningZoneCode { get;set; }
+            public string Satellite { get; set; }
+            public string Synoptic { get; set; }
+            public string MarineStation { get; set; }
+            public string MarineStationGMTOffset { get; set; }
+            public string VideoCode { get; set; }
+            public string PartnerID { get; set; }
+            public List<SourcesModel> Sources { get; set; }
+            public class SourcesModel
+            {
+                public string DataType { get; set; }
+                public string Source { get; set; }
+                public int SourceId { get; set; }
+            }
+            public string CanonicalPostalCode { get; set; }
+            public string CanonicalLocationKey { get; set; }
+        }
     }
 
     public class LocationsPoiSearchReqModel : AccReqModel

@@ -48,6 +48,14 @@ datas.cc.arr.log = [
 
 // #endregion
 
+// #region datas.os
+
+/** 当前系统 */
+datas.os = {};
+datas.os.isMobile = false;
+
+// #endregion
+
 // #region datas.h5
 
 datas.h5 = {};
@@ -625,6 +633,10 @@ datas.pc.nav = {
                     {
                         text: '17素材',
                         url: 'http://www.17sucai.com/'
+                    },
+                    {
+                        text: 'anime.js',
+                        url: 'http://anime-js.com' // --> 示例库：https://codepen.io/collection/XLebem/2/
                     }
                 ]
             }

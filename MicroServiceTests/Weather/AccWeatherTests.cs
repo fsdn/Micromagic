@@ -79,7 +79,7 @@ namespace MicroServiceTests.Weather
             AccuWeather acc = new AccuWeather();
             var model = new LocationsCitiesNeighborsLocationKeyReqModel()
             {
-                locationKey = "100",
+                locationKey = "58194",
                 details = true
             };
             var obj = acc.LocationsCitiesNeighborsLocationKey(model);
@@ -97,6 +97,57 @@ namespace MicroServiceTests.Weather
                 details = true
             };
             var obj = acc.LocationsLocationKey(model);
+            string json = JsonHelper.SerializeObject(obj);
+            Assert.Equals("0", "0");
+        }
+
+        [TestMethod]
+        public void LocationsCitiesSearch()
+        {
+            AccuWeather acc = new AccuWeather();
+            var model = new LocationsCitiesSearchReqModel()
+            {
+                q = "深圳",
+                alias = "",
+                offset = 0,
+                details = true
+            };
+            var obj = acc.LocationsCitiesSearch(model);
+            string json = JsonHelper.SerializeObject(obj);
+            Assert.Equals("0", "0");
+        }
+
+        [TestMethod]
+        public void LocationsCitiesCountryCodeAdminCodeSearch()
+        {
+            AccuWeather acc = new AccuWeather();
+            var model = new LocationsCitiesCountryCodeAdminCodeSearchReqModel()
+            {
+                countryCode = "CN",
+                adminCode = "44",
+                q = "深圳",
+                alias = "",
+                offset = 0,
+                details = true
+            };
+            var obj = acc.LocationsCitiesCountryCodeAdminCodeSearch(model);
+            string json = JsonHelper.SerializeObject(obj);
+            Assert.Equals("0", "0");
+        }
+
+        [TestMethod]
+        public void LocationsCitiesCountryCodeSearch()
+        {
+            AccuWeather acc = new AccuWeather();
+            var model = new LocationsCitiesCountryCodeSearchReqModel()
+            {
+                countryCode = "CN",
+                q = "深圳",
+                alias = "0",
+                offset = 0,
+                details = true
+            };
+            var obj = acc.LocationsCitiesCountryCodeSearch(model);
             string json = JsonHelper.SerializeObject(obj);
             Assert.Equals("0", "0");
         }

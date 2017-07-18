@@ -1,4 +1,10 @@
 ﻿
+// #region var
+
+datas.os.isMobile = false; // 设备为PC
+funMobileOrPC(datas.os.isMobile); // 切换PC/H5
+
+// #endregion
 
 // #region angular
 

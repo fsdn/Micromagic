@@ -35,8 +35,10 @@ namespace Micromagic
             #region Layout
 
             bundles.Add(new StyleBundle("~/H5/Styles/Views").Include(
+                "~/Content/Thirds/normalize-7.0.0/css/normalize.css",
                 "~/Content/Thirds/weui-1.1.1/css/weui.css",
                 "~/Content/Thirds/animate-4.0.0/css/animate.css",
+                "~/Content/Thirds/materialicons-3.0.1/css/material-icons.css",
                 "~/Content/Common/css/DataPool.css",
                 "~/Content/Common/css/Common.css",
                 "~/Content/Common/css/LayoutH5.css"));
@@ -55,13 +57,43 @@ namespace Micromagic
 
             #region Magic
 
+            bundles.Add(new StyleBundle("~/H5/Styles/Magic").Include(
+                "~/Content/H5/Magic/Magic/Magic.css"));
+            bundles.Add(new ScriptBundle("~/H5/Scripts/Magic").Include(
+                "~/Content/H5/Magic/Magic/Magic.js"));
+
+            bundles.Add(new StyleBundle("~/H5/Styles/Magic/Index").Include(
+                "~/Content/H5/Magic/Magic/Index.css"));
+            bundles.Add(new ScriptBundle("~/H5/Scripts/Micro/Index").Include(
+                "~/Content/H5/Magic/Magic/Index.js"));
+
             #endregion
 
             #region Micro
 
+            bundles.Add(new StyleBundle("~/H5/Styles/Micro").Include(
+                "~/Content/H5/Micro/Micro/Micro.css"));
+            bundles.Add(new ScriptBundle("~/H5/Scripts/Micro").Include(
+                "~/Content/H5/Micro/Micro/Micro.js"));
+
+            bundles.Add(new StyleBundle("~/H5/Styles/Micro/Index").Include(
+                "~/Content/H5/Micro/Micro/Index.css"));
+            bundles.Add(new ScriptBundle("~/H5/Scripts/Micro/Index").Include(
+                "~/Content/H5/Micro/Micro/Index.js"));
+
             #endregion
 
             #region Weather
+
+            bundles.Add(new StyleBundle("~/H5/Styles/Weather").Include(
+                "~/Content/H5/Weather/Weather/Weather.css"));
+            bundles.Add(new ScriptBundle("~/H5/Scripts/Weather").Include(
+                "~/Content/H5/Weather/Weather/Weather.js"));
+
+            bundles.Add(new StyleBundle("~/H5/Styles/Weather/Index").Include(
+                "~/Content/H5/Weather/Weather/Index.css"));
+            bundles.Add(new ScriptBundle("~/H5/Scripts/Weather/Index").Include(
+                "~/Content/H5/Weather/Weather/Index.js"));
 
             #endregion
 
@@ -94,14 +126,14 @@ namespace Micromagic
             #region Home
 
             bundles.Add(new StyleBundle("~/PC/Styles/Home").Include(
-             "~/Content/PC/Home/css/Home.css"));
+             "~/Content/PC/Home/Home/Home.css"));
             bundles.Add(new ScriptBundle("~/PC/Scripts/Home").Include(
-               "~/Content/PC/Home/js/Home.js"));
+               "~/Content/PC/Home/Home/Home.js"));
 
             bundles.Add(new StyleBundle("~/PC/Styles/Home/Index").Include(
-             "~/Content/PC/Home/css/Index.css"));
+             "~/Content/PC/Home/Index/Index.css"));
             bundles.Add(new ScriptBundle("~/PC/Scripts/Home/Index").Include(
-               "~/Content/PC/Home/js/Index.js"));
+               "~/Content/PC/Home/Index/Index.js"));
 
             #endregion
 

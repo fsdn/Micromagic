@@ -1,9 +1,0 @@
-D:\FPJ\Githubs\Micromagic\MicroService\bin\Debug\MicroService.dll
-D:\FPJ\Githubs\Micromagic\MicroService\bin\Debug\MicroService.pdb
-D:\FPJ\Githubs\Micromagic\MicroService\bin\Debug\MicroUtils.dll
-D:\FPJ\Githubs\Micromagic\MicroService\bin\Debug\Newtonsoft.Json.dll
-D:\FPJ\Githubs\Micromagic\MicroService\bin\Debug\log4net.dll
-D:\FPJ\Githubs\Micromagic\MicroService\bin\Debug\MicroUtils.pdb
-D:\FPJ\Githubs\Micromagic\MicroService\obj\Debug\MicroService.csprojResolveAssemblyReference.cache
-D:\FPJ\Githubs\Micromagic\MicroService\obj\Debug\MicroService.dll
-D:\FPJ\Githubs\Micromagic\MicroService\obj\Debug\MicroService.pdb

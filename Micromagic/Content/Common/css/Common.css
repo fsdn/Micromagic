@@ -1,2 +1,46 @@
 ﻿body {
+    background-color: #f4f5f6;
 }
+
+
+/*#region * */
+
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*#endregion */
+
+/*#region fonts */
+
+@font-face {
+    font-family: 'Glyphicons Halflings';
+    src: url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot');
+    src: url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'), url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'), url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Material Icons';
+    src: url('/Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.eot');
+    src: url('/Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.eot?#iefix') format('embedded-opentype'), url('/Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.ttf') format('truetype'), url('/Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.svg#glyphicons_halflingsregular') format('svg'), url('/Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.woff') format('woff'), url('/Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.woff2') format('woff2');
+}
+
+/*#endregion */
+
+/*#region ui-icon */
+
+/** material https://material.io/icons/ */
+
+.ui-icons {
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    text-rendering: optimizeLegibility;
+    font-feature-settings: "liga" 1;
+}
+
+/*#endregion */

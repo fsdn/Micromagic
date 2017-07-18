@@ -31,6 +31,10 @@ datas.cc.acter = {};
 datas.cc.acter.qq = '1296696830';
 datas.cc.acter.email = '1296696830@qq.com';
 
+/** 公共数据页面默认 */
+datas.cc.defaut = {};
+datas.cc.defaut.index = { pc: '/Home/Index', h5: '/Micro/Index' };
+
 /** 公共数据字符串 */
 datas.cc.str = {};
 datas.cc.str.brand = '慢时间';
@@ -41,6 +45,14 @@ datas.cc.arr.log = [
 '天将降大任于斯人也，\n必先卸其QQ，\n封其微博，\n删其微信，\n去其贴吧，\n收其电脑，\n夺其手机，\n摔其ipad，\n断其wifi，\n剪其网线，\n使其百无聊赖，\n然后静坐、喝茶、思过、锻炼、读书、弹琴、练字、明智、开悟、精进，\n而后必成大器也！',
 '邮箱 %c' + datas.cc.acter.email + ' %c 闲人免扰，谢谢！'
 ];
+
+// #endregion
+
+// #region datas.os
+
+/** 当前系统 */
+datas.os = {};
+datas.os.isMobile = false;
 
 // #endregion
 
@@ -621,6 +633,10 @@ datas.pc.nav = {
                     {
                         text: '17素材',
                         url: 'http://www.17sucai.com/'
+                    },
+                    {
+                        text: 'anime.js',
+                        url: 'http://anime-js.com' // --> 示例库：https://codepen.io/collection/XLebem/2/
                     }
                 ]
             }

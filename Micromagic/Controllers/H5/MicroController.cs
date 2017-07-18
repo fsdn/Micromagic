@@ -12,8 +12,8 @@ namespace Micromagic.Controllers.H5
         // GET: Micro
         public ActionResult Index()
         {
-            return Redirect("/Weather/Index");
-            //return View();
+            //return Redirect("/Weather/Index");
+            return View();
         }
     }
 }

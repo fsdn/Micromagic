@@ -69,16 +69,6 @@
 
 /*#region hack */
 
-@font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot');
-  src: url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'),
-       url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.ttf') format('truetype'), 
-       url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg'), 
-       url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff') format('woff'), 
-       url('/Content/Thirds/bootstrap-3.3.7/fonts/glyphicons-halflings-regular.woff2') format('woff2');
-}
-
 .body-content {
     margin-bottom: 20px;
 }

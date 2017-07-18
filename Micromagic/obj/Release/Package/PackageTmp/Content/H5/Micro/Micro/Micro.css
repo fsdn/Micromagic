@@ -1,0 +1,68 @@
+﻿body {
+}
+
+
+/*#region Index */
+
+.ui-ctrl-index {
+}
+
+    .ui-ctrl-index .page {
+        border: 1px solid #000;
+    }
+
+    .ui-ctrl-index .ui-as-row {
+    }
+
+    .ui-ctrl-index .ui-as-cell {
+        border: 1px solid #000;
+        background-color: #297ecc;
+    }
+
+        .ui-ctrl-index .ui-as-cell:focus,
+        .ui-ctrl-index .ui-as-cell:hover {
+            background-color: #0078D7;
+        }
+
+    .ui-ctrl-index .ui-node {
+        color: #fcfcfc;
+    }
+
+    .ui-ctrl-index .ui-node-icon {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        bottom: auto;
+        left: 0px;
+        font-size: 36px;
+        text-align: center;
+        margin-top: -28px;
+    }
+
+    .ui-ctrl-index .ui-node-text {
+        display: none;
+        position: absolute;
+        left: 5px;
+        bottom: 5px;
+        font-size: 8px;
+    }
+
+    .ui-ctrl-index .ui-node-sub {
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        bottom: auto;
+        left: 0px;
+        font-size: 18px;
+        text-align: center;
+        margin-top: -15px;
+    }
+
+    .ui-ctrl-index .ui-node-tag {
+        position: absolute;
+        right: 5px;
+        bottom: 5px;
+        font-size: 12px;
+    }
+
+/*#endregion */

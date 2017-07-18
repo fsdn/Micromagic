@@ -85,10 +85,10 @@
       <publishTime>07/13/2017 13:25:11</publishTime>
     </File>
     <File Include="bin/Micromagic.dll">
-      <publishTime>07/13/2017 17:47:28</publishTime>
+      <publishTime>07/18/2017 17:52:40</publishTime>
     </File>
     <File Include="bin/MicroService.dll">
-      <publishTime>07/13/2017 16:01:48</publishTime>
+      <publishTime>07/18/2017 11:55:44</publishTime>
     </File>
     <File Include="bin/Microsoft.AspNet.Identity.Core.dll">
       <publishTime>07/10/2017 13:30:11</publishTime>
@@ -133,7 +133,7 @@
       <publishTime>07/10/2017 13:30:08</publishTime>
     </File>
     <File Include="bin/MicroUtils.dll">
-      <publishTime>07/13/2017 16:01:48</publishTime>
+      <publishTime>07/18/2017 11:55:44</publishTime>
     </File>
     <File Include="bin/Newtonsoft.Json.dll">
       <publishTime>07/10/2017 13:30:03</publishTime>
@@ -214,16 +214,16 @@
       <publishTime>07/10/2017 13:30:09</publishTime>
     </File>
     <File Include="Content/Common/css/Common.css">
-      <publishTime>07/11/2017 08:22:56</publishTime>
+      <publishTime>07/18/2017 18:14:36</publishTime>
     </File>
     <File Include="Content/Common/css/DataPool.css">
       <publishTime>07/11/2017 08:24:17</publishTime>
     </File>
     <File Include="Content/Common/css/LayoutH5.css">
-      <publishTime>07/10/2017 17:46:11</publishTime>
+      <publishTime>07/18/2017 17:16:07</publishTime>
     </File>
     <File Include="Content/Common/css/LayoutPC.css">
-      <publishTime>07/13/2017 17:51:20</publishTime>
+      <publishTime>07/18/2017 16:42:39</publishTime>
     </File>
     <File Include="Content/Common/font/glyphicons-halflings-regular.eot">
       <publishTime>07/10/2017 13:30:03</publishTime>
@@ -241,22 +241,70 @@
       <publishTime>07/10/2017 13:30:00</publishTime>
     </File>
     <File Include="Content/Common/js/Common.js">
-      <publishTime>07/13/2017 14:13:32</publishTime>
+      <publishTime>07/18/2017 15:37:45</publishTime>
     </File>
     <File Include="Content/Common/js/DataPool.js">
-      <publishTime>07/13/2017 14:47:07</publishTime>
+      <publishTime>07/17/2017 11:13:19</publishTime>
     </File>
     <File Include="Content/Common/js/LayoutH5.js">
-      <publishTime>07/10/2017 17:47:13</publishTime>
+      <publishTime>07/17/2017 13:44:12</publishTime>
     </File>
     <File Include="Content/Common/js/LayoutPC.js">
-      <publishTime>07/13/2017 16:45:27</publishTime>
+      <publishTime>07/17/2017 11:21:15</publishTime>
+    </File>
+    <File Include="Content/H5/Magic/Index/Index.css">
+      <publishTime>07/17/2017 11:27:07</publishTime>
+    </File>
+    <File Include="Content/H5/Magic/Index/Index.js">
+      <publishTime>07/17/2017 11:27:12</publishTime>
+    </File>
+    <File Include="Content/H5/Magic/Magic/Magic.css">
+      <publishTime>07/17/2017 11:30:16</publishTime>
+    </File>
+    <File Include="Content/H5/Magic/Magic/Magic.js">
+      <publishTime>07/17/2017 11:30:34</publishTime>
+    </File>
+    <File Include="Content/H5/Micro/Index/Index.css">
+      <publishTime>07/17/2017 13:12:39</publishTime>
+    </File>
+    <File Include="Content/H5/Micro/Index/Index.js">
+      <publishTime>07/17/2017 13:12:27</publishTime>
+    </File>
+    <File Include="Content/H5/Micro/Micro/Micro.css">
+      <publishTime>07/18/2017 17:52:07</publishTime>
+    </File>
+    <File Include="Content/H5/Micro/Micro/Micro.js">
+      <publishTime>07/18/2017 17:51:48</publishTime>
+    </File>
+    <File Include="Content/H5/Weather/Index/Index.css">
+      <publishTime>07/17/2017 11:27:17</publishTime>
+    </File>
+    <File Include="Content/H5/Weather/Index/Index.js">
+      <publishTime>07/17/2017 11:27:22</publishTime>
+    </File>
+    <File Include="Content/H5/Weather/Weather/Weather.css">
+      <publishTime>07/17/2017 13:20:37</publishTime>
+    </File>
+    <File Include="Content/H5/Weather/Weather/Weather.js">
+      <publishTime>07/17/2017 11:30:01</publishTime>
     </File>
     <File Include="Content/PC/Home/css/Home.css">
       <publishTime>07/13/2017 15:44:29</publishTime>
     </File>
     <File Include="Content/PC/Home/css/Index.css">
       <publishTime>07/13/2017 13:44:35</publishTime>
+    </File>
+    <File Include="Content/PC/Home/Home/Home.css">
+      <publishTime>07/17/2017 13:19:56</publishTime>
+    </File>
+    <File Include="Content/PC/Home/Home/Home.js">
+      <publishTime>07/13/2017 16:45:49</publishTime>
+    </File>
+    <File Include="Content/PC/Home/Index/Index.css">
+      <publishTime>07/13/2017 13:44:35</publishTime>
+    </File>
+    <File Include="Content/PC/Home/Index/Index.js">
+      <publishTime>07/13/2017 15:11:34</publishTime>
     </File>
     <File Include="Content/PC/Home/js/Home.js">
       <publishTime>07/13/2017 16:45:49</publishTime>
@@ -301,7 +349,7 @@
       <publishTime>07/10/2017 13:30:09</publishTime>
     </File>
     <File Include="Content/Scripts/_references.js">
-      <publishTime>07/13/2017 16:44:17</publishTime>
+      <publishTime>07/17/2017 13:12:42</publishTime>
     </File>
     <File Include="Content/Styles/bootstrap.css">
       <publishTime>07/13/2017 17:28:09</publishTime>
@@ -323,6 +371,12 @@
     </File>
     <File Include="Content/Thirds/animate-4.0.0/css/animate.min.css">
       <publishTime>07/10/2017 17:49:09</publishTime>
+    </File>
+    <File Include="Content/Thirds/animejs-2.0.2/js/anime.js">
+      <publishTime>07/17/2017 09:12:21</publishTime>
+    </File>
+    <File Include="Content/Thirds/animejs-2.0.2/js/anime.min.js">
+      <publishTime>07/17/2017 09:12:21</publishTime>
     </File>
     <File Include="Content/Thirds/bootstrap-3.3.7/css/bootstrap-theme.css">
       <publishTime>07/11/2017 11:00:13</publishTime>
@@ -386,6 +440,111 @@
     </File>
     <File Include="Content/Thirds/bootstrap-4.0.0/js/bootstrap.min.js">
       <publishTime>07/11/2017 08:34:08</publishTime>
+    </File>
+    <File Include="Content/Thirds/countupjs-1.8.5/js/angular-countup.js">
+      <publishTime>07/17/2017 09:35:45</publishTime>
+    </File>
+    <File Include="Content/Thirds/countupjs-1.8.5/js/angular-countup.min.js">
+      <publishTime>07/17/2017 09:35:45</publishTime>
+    </File>
+    <File Include="Content/Thirds/countupjs-1.8.5/js/countup.js">
+      <publishTime>07/17/2017 09:35:45</publishTime>
+    </File>
+    <File Include="Content/Thirds/countupjs-1.8.5/js/countup.min.js">
+      <publishTime>07/17/2017 09:35:45</publishTime>
+    </File>
+    <File Include="Content/Thirds/countupjs-1.8.5/js/countup.module.js">
+      <publishTime>07/17/2017 09:35:45</publishTime>
+    </File>
+    <File Include="Content/Thirds/devicejs-0.2.7/js/device.js">
+      <publishTime>07/13/2017 18:37:43</publishTime>
+    </File>
+    <File Include="Content/Thirds/devicejs-0.2.7/js/device.min.js">
+      <publishTime>07/13/2017 18:37:43</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/demo/demo.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/effeckt.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/buttons.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/captions.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/form-elements.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/lazy-loading.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/list-items.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/list-scroll.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/modal.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/modals.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/off-screen-nav.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/page-transitions.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/positional-modals.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/tabs.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/css/modules/tooltips.css">
+      <publishTime>07/17/2017 09:06:39</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/core.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/demo/demo.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/demo/lazy-loading.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/buttons.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/captions.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/list-items.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/list-scroll.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/modal.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/off-screen-nav.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/page-transitions.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/positional-modals.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/tabs.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
+    </File>
+    <File Include="Content/Thirds/effecktcss-1.0.0/js/modules/_template.js">
+      <publishTime>07/17/2017 09:07:02</publishTime>
     </File>
     <File Include="Content/Thirds/highlightjs-9.12.0/css/agate.css">
       <publishTime>07/11/2017 08:58:07</publishTime>
@@ -729,6 +888,12 @@
     <File Include="Content/Thirds/highlightjs-9.12.0/js/highlight.pack.min.js">
       <publishTime>07/11/2017 08:58:17</publishTime>
     </File>
+    <File Include="Content/Thirds/hovercss-2.2.0/css/hover-min.css">
+      <publishTime>07/17/2017 09:14:25</publishTime>
+    </File>
+    <File Include="Content/Thirds/hovercss-2.2.0/css/hover.css">
+      <publishTime>07/17/2017 09:14:25</publishTime>
+    </File>
     <File Include="Content/Thirds/jquery-3.2.0/js/jquery.js">
       <publishTime>07/13/2017 16:05:27</publishTime>
     </File>
@@ -738,11 +903,128 @@
     <File Include="Content/Thirds/jquery-3.2.0/js/jquery.min.map">
       <publishTime>07/10/2017 15:18:41</publishTime>
     </File>
+    <File Include="Content/Thirds/loaderscss-0.1.2/css/loaders.css">
+      <publishTime>07/17/2017 09:17:36</publishTime>
+    </File>
+    <File Include="Content/Thirds/loaderscss-0.1.2/css/loaders.min.css">
+      <publishTime>07/17/2017 09:17:36</publishTime>
+    </File>
+    <File Include="Content/Thirds/loaderscss-0.1.2/js/loaders.css.js">
+      <publishTime>07/17/2017 09:17:40</publishTime>
+    </File>
+    <File Include="Content/Thirds/magicanimations-1.2.0/css/magic.css">
+      <publishTime>07/17/2017 09:01:50</publishTime>
+    </File>
+    <File Include="Content/Thirds/magicanimations-1.2.0/css/magic.min.css">
+      <publishTime>07/17/2017 09:01:50</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/css/material-icons.css">
+      <publishTime>07/18/2017 16:57:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.eot">
+      <publishTime>07/18/2017 16:36:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.ijmap">
+      <publishTime>07/18/2017 16:36:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.svg">
+      <publishTime>07/18/2017 16:36:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.ttf">
+      <publishTime>07/18/2017 16:36:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.woff">
+      <publishTime>07/18/2017 16:36:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/materialicons-3.0.1/fonts/MaterialIcons-Regular.woff2">
+      <publishTime>07/18/2017 16:36:41</publishTime>
+    </File>
+    <File Include="Content/Thirds/mojs-0.2.8/js/mo.js">
+      <publishTime>07/17/2017 09:44:18</publishTime>
+    </File>
+    <File Include="Content/Thirds/mojs-0.2.8/js/mo.min.js">
+      <publishTime>07/17/2017 09:44:18</publishTime>
+    </File>
+    <File Include="Content/Thirds/normalize-7.0.0/css/normalize.css">
+      <publishTime>07/18/2017 10:04:31</publishTime>
+    </File>
     <File Include="Content/Thirds/qrcode-0.14.0/js/jquery-qrcode-0.14.0.js">
       <publishTime>07/11/2017 08:48:40</publishTime>
     </File>
     <File Include="Content/Thirds/qrcode-0.14.0/js/jquery-qrcode-0.14.0.min.js">
       <publishTime>07/11/2017 08:48:40</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/js/scrollMagic.js">
+      <publishTime>07/17/2017 09:30:06</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/js/scrollMagic.min.js">
+      <publishTime>07/17/2017 09:29:58</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/animation.gsap.js">
+      <publishTime>07/17/2017 09:30:11</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/animation.gsap.min.js">
+      <publishTime>07/17/2017 09:29:50</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/animation.velocity.js">
+      <publishTime>07/17/2017 09:30:11</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/animation.velocity.min.js">
+      <publishTime>07/17/2017 09:29:50</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/debug.addIndicators.js">
+      <publishTime>07/17/2017 09:30:11</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/debug.addIndicators.min.js">
+      <publishTime>07/17/2017 09:29:50</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/jquery.ScrollMagic.js">
+      <publishTime>07/17/2017 09:30:11</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollmagic-2.0.5/plugins/jquery.ScrollMagic.min.js">
+      <publishTime>07/17/2017 09:29:50</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollrevealjs-4.0.0/js/scrollreveal.js">
+      <publishTime>07/17/2017 09:24:54</publishTime>
+    </File>
+    <File Include="Content/Thirds/scrollrevealjs-4.0.0/js/scrollreveal.min.js">
+      <publishTime>07/17/2017 09:24:54</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinkit.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/1-rotating-plane.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/10-fading-circle.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/11-folding-cube.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/2-double-bounce.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/3-wave.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/4-wandering-cubes.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/5-pulse.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/6-chasing-dots.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/7-three-bounce.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/8-circle.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
+    </File>
+    <File Include="Content/Thirds/spinkitcss-1.2.5/css/spinners/9-cube-grid.css">
+      <publishTime>07/17/2017 09:18:56</publishTime>
     </File>
     <File Include="Content/Thirds/tether-1.3.3/css/tether-theme-arrows-dark.css">
       <publishTime>07/11/2017 10:38:01</publishTime>
@@ -793,7 +1075,13 @@
       <publishTime>07/10/2017 13:30:14</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>07/13/2017 17:40:49</publishTime>
+      <publishTime>07/17/2017 13:13:26</publishTime>
+    </File>
+    <File Include="Views/Magic/Index.cshtml">
+      <publishTime>07/17/2017 13:45:16</publishTime>
+    </File>
+    <File Include="Views/Micro/Index.cshtml">
+      <publishTime>07/18/2017 18:14:46</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
       <publishTime>07/10/2017 13:30:00</publishTime>
@@ -802,13 +1090,13 @@
       <publishTime>07/11/2017 10:09:38</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutH5.cshtml">
-      <publishTime>07/13/2017 14:23:22</publishTime>
+      <publishTime>07/17/2017 13:47:41</publishTime>
     </File>
     <File Include="Views/Shared/_LayoutPC.cshtml">
-      <publishTime>07/13/2017 16:46:49</publishTime>
+      <publishTime>07/14/2017 08:19:13</publishTime>
     </File>
     <File Include="Views/Weather/Index.cshtml">
-      <publishTime>07/13/2017 16:00:07</publishTime>
+      <publishTime>07/17/2017 13:18:00</publishTime>
     </File>
     <File Include="Views/Web.config">
       <publishTime>07/10/2017 13:30:00</publishTime>
